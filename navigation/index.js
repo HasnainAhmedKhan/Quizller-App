@@ -14,7 +14,7 @@ function MyStack() {
       <Stack.Screen name="Quiz" component={Quiz} 
       options={{headerShown:false}} />
       <Stack.Screen name="Result" component={Result}
-      options={{headerShown:false}}  />
+      options={{headerShown:false}}/>
     </Stack.Navigator>
   );
 }
